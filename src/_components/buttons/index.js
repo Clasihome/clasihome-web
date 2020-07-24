@@ -1,1 +1,1 @@
-export { default as RoundedButton } from './rounded';
+export { default as Button } from './button';

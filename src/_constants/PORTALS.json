@@ -1,0 +1,62 @@
+[
+  {
+    "src":"/portals/portal-inmobiliario.png",
+    "width": 190.55,
+    "height": 38.11
+  },
+  {
+    "src":"/portals/goplaceit.png",
+    "width": 132.72,
+    "height": 40.06
+  },
+  {
+    "src":"/portals/facebook.png",
+    "width": 122,
+    "height": 44.68
+  },
+  {
+    "src":"/portals/portal-terreno.png",
+    "width": 150.36,
+    "height": 47.12
+  },
+  {
+    "src":"/portals/nuroa.png",
+    "width": 75.29,
+    "height": 45.08
+  },
+  {
+    "src":"/portals/icasas.png",
+    "width": 96.71,
+    "height": 38.45
+  },
+  {
+    "src":"/portals/doomos.png",
+    "width": 105.51,
+    "height": 23.78
+  },
+  {
+    "src":"/portals/yapo.png",
+    "width": 107.91,
+    "height": 30.92
+  },
+  {
+    "src":"/portals/toc-toc.png",
+    "width": 76.17,
+    "height": 47.35
+  },
+  {
+    "src":"/portals/twitter.png",
+    "width": 75,
+    "height": 41.56
+  },
+  {
+    "src":"/portals/acop.png",
+    "width": 86.69,
+    "height": 32.69
+  },
+  {
+    "src":"/portals/zoom.png",
+    "width": 80.97,
+    "height": 35.13
+  }
+]
