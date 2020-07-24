@@ -1,11 +1,18 @@
+@import '../../_styles/vars.less';
+
 a.link-logo{
   text-decoration: none;
   display: flex;
   align-items: center;
+  color: inherit;
 }
 
 a.link-logo:visited{
   color: inherit;
+}
+
+a.link-logo:hover{
+  color: @primary;
 }
 
 a.link-logo span {

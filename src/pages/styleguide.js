@@ -138,7 +138,7 @@ export default ()=> {
                 <h3>ClasiHome</h3>
                 <small>Conectamos propiedades con clientes.</small>
               </AnimatedAvatar>
-              <h3>Animado</h3>
+              <h3>Animado(hover)</h3>
             </Col>            
             <Col xs={12} style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
               <Avatar

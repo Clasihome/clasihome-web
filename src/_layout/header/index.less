@@ -1,0 +1,102 @@
+@import '../../_styles/vars.less';
+
+.main-header{
+  position: fixed;
+  width: 100%;
+  z-index: 1500;
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.main-nav{
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav button{
+  background: transparent;
+  border: none;
+  outline: none !important;
+  border-radius: 2px ;
+  transition: 250ms ease;
+  cursor: pointer;
+}
+
+.menu-icon{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li{
+    background-color: @primary;
+    height: 3px;
+    width: 19px;
+    margin-bottom: .25rem;
+    border-radius: 19px;
+  }
+}
+
+.responsive-nav{
+  position: absolute;
+  top: -100vh;
+  right: 0;
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.responsive-nav ul{
+  margin: 0;
+  margin-bottom: 15vh;
+  padding: 0;
+  list-style: none;
+}
+
+.responsive-nav ul li{
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.responsive-nav ul li a{
+  color: @primary;
+  font-size: 2rem;
+  transition: 250ms ease;
+  &:visited{
+    color: @secondary;
+  }
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+#nav-sphere{
+  position: absolute;
+  bottom: -100vw;
+  color: #fff;
+  p{
+    margin: 0;
+    text-align: center;
+  }
+}
+
+#nav-sphere ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 25vw;
+  margin: 3rem 0 1rem;
+  li{
+    margin: 0;
+  }
+  svg{
+    width: 1.5rem;
+  }
+  svg path{
+    fill: #fff;
+  }  
+}
