@@ -1,14 +1,12 @@
 import React from 'react';
-import Container from '../container';
 import './index.less';
 
-export default ({ children, dark })=> (
+export default ({ children, dark, className, id })=> (
   <section
+    id={id}
     style={{ backgroundColor: dark ? "#F4F7FC" : "#FFFFFF" }}
-    className="section-cont"
+    className={`section-cont ${className}`}
   >
-    <Container>
-      {children}
-    </Container>
+    {children}
   </section>
 )

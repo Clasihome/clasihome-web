@@ -133,7 +133,7 @@ export default ()=> {
             <Col xs={12} style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
               <AnimatedAvatar
                 size={150}
-                src="/persons/person-2.png"
+                src="/hero/person-2.png"
               >
                 <h3>ClasiHome</h3>
                 <small>Conectamos propiedades con clientes.</small>
@@ -143,7 +143,7 @@ export default ()=> {
             <Col xs={12} style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
               <Avatar
                 size={150}
-                src="/persons/person-1.png"
+                src="/hero/person-1.png"
               />
               <h3>Común</h3>
             </Col>
