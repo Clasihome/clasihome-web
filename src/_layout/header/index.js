@@ -3,7 +3,8 @@ import Logo from '../../_components/logo';
 import Container from '../../_components/container';
 import Sphere from '../../_components/sphere';
 import { gsap, TimelineLite } from 'gsap';
-import { MenuOutlined, FacebookFilled, TwitterCircleFilled, InstagramFilled, CopyrightOutlined } from '@ant-design/icons';
+import { ArrowRightOutlined, FacebookFilled, TwitterCircleFilled, InstagramFilled, CopyrightOutlined } from '@ant-design/icons';
+import { Button } from '../../_components/buttons';
 import './index.less';
 
 export default ()=> {
@@ -67,7 +68,19 @@ export default ()=> {
       <Container>
         <nav className="main-nav">
           <Logo />
-          <button onClick={()=> setMenu(!menu)}>
+          <ul className="desktop-nav">
+            <li><a>Funciones</a></li>
+            <li><a>Precios</a></li>
+            <li><a>Contacto</a></li>
+          </ul>
+          <div className="desktop-nav-buttons">
+            <Button id="register-button" type="link">Registrate</Button>
+            <Button rounded={"true"} shadow="true" size ="middle" type="primary">
+                Login
+                <ArrowRightOutlined />
+            </Button>
+          </div>
+          <button className="responsive-button" onClick={()=> setMenu(!menu)}>
             <ul className="menu-icon">
               <li id="top" />
               <li id="middle" />

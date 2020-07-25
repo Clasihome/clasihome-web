@@ -16,13 +16,16 @@
   justify-content: space-between;
 }
 
-.main-nav button{
+.main-nav .responsive-button{
   background: transparent;
   border: none;
   outline: none !important;
   border-radius: 2px ;
   transition: 250ms ease;
   cursor: pointer;
+  @media(min-width: @sizes[tablet]){
+    display: none;
+  }  
 }
 
 .menu-icon{
@@ -49,6 +52,9 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    display: none;
+  }
 }
 
 .responsive-nav ul{
@@ -99,4 +105,39 @@
   svg path{
     fill: #fff;
   }  
+}
+
+.desktop-nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  li{
+    margin-left: 2rem;
+  };
+  li:nth-child(1){
+    margin: 0;
+  }
+  @media(min-width: @sizes[tablet]){
+    display: flex;
+  }
+}
+
+.desktop-nav-buttons{
+  display: none;
+  @media(min-width: @sizes[tablet]){
+    display: block;
+  }
+}
+
+#register-button{
+  color: @primary;
+  span{
+    transition: 250ms ease;
+  }
+  &:hover{
+    span{
+      text-decoration: underline;
+    }
+  }
 }
