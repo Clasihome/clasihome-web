@@ -1,7 +1,12 @@
+/*@import '../../../_styles/vars.less';
+
 .property-images-section{
   position: relative;
   min-height: 330px;
   overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    min-height: 100vh;
+  }
 }
 
 .property-images-section .back{
@@ -10,6 +15,12 @@
   position: absolute;
   top: 0;
   left: -10vw;
+  z-index: 3;
+  @media(min-width: @sizes[tablet]){
+    left: 0;
+    width: 760px;
+    height: 690px;  
+  }  
 }
 
 .property-images-section .top{
@@ -18,10 +29,20 @@
   position: absolute;
   bottom: 0;
   right: -8vw;
+  z-index: 3;
+  @media(min-width: @sizes[tablet]){
+    right: 0;
+    top: 38%;
+    width: 441px;
+    height: 381px;
+  }    
 }
 
 .property-sphere{
   position: absolute;
   top: 3vh;
   right: 0;
-}
+  @media(min-width: @sizes[tablet]){
+    //display: none;
+  }
+}*/

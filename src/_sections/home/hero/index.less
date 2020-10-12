@@ -1,16 +1,43 @@
 @import '../../../_styles/vars.less';
 @import '../../../_styles/mixins.less';
 
+/*.hero-main-cont{
+  height: 100vh;
+}
+
+.hero-main-cont .background{
+  background-image: url("/hero/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:50vw;
+  //border-radius: 50%;
+  border-bottom-left-radius: 90vw;
+  border-bottom-right-radius: 90vw;
+  border: 1px solid red;
+}*/
+
+.hero-very-main-cont{
+  position: relative;
+  user-select: none;
+}
+
 .hero-main-cont{
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
+  width: 100%;
+  z-index: 2;
+  @media (min-width: @sizes[tablet]){
+    overflow: visible;
+  }
 }
 
 .hero-cont{
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  text-align: center;
 }
 
 .hero-info-animate{
@@ -47,20 +74,27 @@
   }
   h1{
     position: relative;
-    width: 322px;
+    width: 250px;
     text-align: center;
-    font-size: 42px;
+    font-size: 2rem;
     line-height: 52px;
     color: #fff;
     z-index: 2;
+    @media (min-width: @sizes[tablet]){
+      font-size: 42px;
+      width: 400px;
+    }
   }
   p{
     position: relative;
-    width: 326px;
+    width: 300px;
     color: #fff;
     text-align: center;
     margin-bottom: 2rem;
     z-index: 2;
+    @media (min-width: @sizes[tablet]){
+      width: 480px;
+    }    
   }
   &:before{
     content: " ";
@@ -72,11 +106,18 @@
     width: 100%;
     z-index: 1;
   }
+  @media (min-width: @sizes[tablet]){
+    left: 0;
+    height: 200%;
+    width: 100%;
+    border-bottom-left-radius: 48vw;
+    border-bottom-right-radius: 48vw;
+  }
 }
 
 .hero-down-button-cont{
   position: relative;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -111,16 +152,50 @@
 
 #avatar-left{
   position: absolute;
-  bottom: 0;
+  bottom: -7%;
   opacity: 0;
   left: -175px;
   z-index: 2;
+  @media(min-width: @sizes[tablet]){
+    left: 0;
+    bottom: -5%;
+  }
+}
+
+#avatar-left .flip-card{
+  @media(min-width: @sizes[tablet]){
+    width: 317px !important;
+    height: 317px !important;
+  }
 }
 
 #avatar-right{
   position: absolute;
-  bottom: 0;
+  bottom: -10%;
   opacity: 0;
   right: -130px; 
   z-index: 2;
+  @media(min-width: @sizes[tablet]){
+    bottom: 25%;
+    right: 0;
+  }
+}
+
+#avatar-right .flip-card{
+  @media(min-width: @sizes[tablet]){
+    width: 211px !important;
+    height: 211px !important;
+  }
+}
+
+.hero-vector{
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+  //z-index: 1;
+  display: none;
+  opacity: 0;
+  @media(min-width: @sizes[tablet]){
+    display: block;
+  }
 }

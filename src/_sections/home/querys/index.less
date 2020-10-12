@@ -1,0 +1,56 @@
+@import '../../../_styles/vars.less';
+
+.querys-images-section{
+  position: relative;
+  min-height: 330px;
+  min-width: 100vw;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    overflow: visible;
+    min-width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.querys-images-section .back{
+  width: 341.47px;
+  position: absolute;
+  bottom: 0;
+  right: -5vw;
+  @media(min-width: @sizes[tablet]){
+    width: 726px;
+    left: 0;
+  }
+}
+
+.querys-images-section .top{
+  width: 244.58px;  
+  position: absolute;
+  bottom: 0;
+  right: -25vw;
+  @media(min-width: @sizes[tablet]){
+    width: 520px;
+    right: 0;
+  }
+}
+
+.querys-sphere{
+  position: absolute;
+  bottom: -25%;
+  left: 10vw;
+  @media(min-width: @sizes[tablet]){
+    //left: -10vw;
+    opacity: 0;
+  }  
+}
+
+.querys-sphere-2{
+  display: none;
+  @media(min-width: @sizes[tablet]){
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    opacity: 0;
+  }    
+}

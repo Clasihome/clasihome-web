@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="536.516" height="626.621" viewBox="0 0 536.516 626.621">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.687" y2="1.351" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1034a"/>
+      <stop offset="1" stop-color="#fc8463"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="-0.406" y2="-0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc8463"/>
+      <stop offset="0" stop-color="#fb8165"/>
+      <stop offset="1" stop-color="#f1034a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2124d"/>
+      <stop offset="1" stop-color="#fc8463"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_6" data-name="Grupo 6" transform="matrix(0.978, 0.208, -0.208, 0.978, -605.791, -520.627)">
+    <g id="Grupo_4" data-name="Grupo 4">
+      <g id="Grupo_3" data-name="Grupo 3">
+        <g id="Grupo_5" data-name="Grupo 5" transform="matrix(0.985, -0.174, 0.174, 0.985, -84.634, 178.396)">
+          <path id="Trazado_1" data-name="Trazado 1" d="M366.239,335.064c-95.8-21.418-137.6-54.558-156.887-73.173-18.915-19.432-34.3-37.707-44.007-53.139-11.484-15.759-14.62-32.424-12.276-77.176l-96.843,73.2c36.734,6.574,73.216,16.187,107.352,76.751,42.75,77.989,49.548,100.471,41.382,176.731Z" transform="translate(788.192 326.292)" fill="url(#linear-gradient)"/>
+          <path id="Trazado_2" data-name="Trazado 2" d="M618.78,623.064C618.78,553.44,562.641,497,493.39,497S368,553.44,368,623.064s56.139,126.064,125.39,126.064S618.78,692.687,618.78,623.064Z" transform="translate(1399.027 37.163) rotate(59)" fill="url(#linear-gradient-2)"/>
+          <path id="Trazado_3" data-name="Trazado 3" d="M543.237,580.208c0-45.955-39.228-83.208-87.618-83.208S368,534.253,368,580.208s39.228,83.208,87.618,83.208S543.237,626.162,543.237,580.208Z" transform="translate(1537.45 734.557) rotate(151)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

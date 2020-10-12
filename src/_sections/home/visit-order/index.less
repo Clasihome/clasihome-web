@@ -1,7 +1,12 @@
+@import '../../../_styles/vars.less';
+
 .visit-orders-images-section{
   position: relative;
   min-height: 330px;
   overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    min-height: 100vh;
+  }
 }
 
 .visit-orders-images-section .back{
@@ -10,6 +15,10 @@
   position: absolute;
   top: 0;
   left: 5vw;
+  @media(min-width: @sizes[tablet]){
+    width: 717px;
+    height: 585px;
+  }
 }
 
 .visit-orders-images-section .mid{
@@ -18,6 +27,12 @@
   position: absolute;
   left: 5vw;
   bottom: 0;
+  @media(min-width: @sizes[tablet]){
+    left: 10vw;
+    width: 406px;
+    height: 352px;
+    z-index: 2;
+  }
 }
 
 .visit-orders-images-section .top{
@@ -26,6 +41,11 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  @media(min-width: @sizes[tablet]){
+    width: 410px;
+    height: 358px;
+    z-index: 3;
+  }
 }
 
 .visit-orders-sphere{
@@ -38,4 +58,14 @@
   position: absolute;
   top: 0px;
   right: -30px;
+}
+
+.visit-orders-property-sphere{
+  @media(min-width: @sizes[tablet]){
+    top: 60%;
+    left: 10vw;
+    width: 100px !important;
+    height: 100px !important;
+    z-index: 1;
+  }
 }

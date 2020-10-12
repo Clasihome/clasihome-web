@@ -1,0 +1,63 @@
+@import '../../../_styles/vars.less';
+
+.contact-images-section{
+  position: relative;
+  min-height: 330px;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    height: 100vh;
+    overflow: visible;
+  }
+}
+
+.contact-sphere{
+  margin-left: 2rem !important;
+  @media(min-width: @sizes[tablet]){
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    opacity: 0;
+  }
+}
+
+.contact-sphere-2{
+  display: none;
+  @media(min-width: @sizes[tablet]){
+    opacity: 0;
+    display: block;
+    position: absolute;
+    bottom: -25%;
+    left: -10%;
+  }
+}
+
+.contact-images-section .back{
+  position: absolute;
+  width: 403.33px;
+  height: 273.89px;
+  top: 6vh;
+  left: 12.5vw;
+  @media(min-width: @sizes[tablet]){
+    z-index: 1;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 779px;
+    height: 529px;
+  }
+}
+
+.contact-images-section .top{
+  position: absolute;
+  width: 301.85px;  
+  top: -1vh;
+  right: -22.5vw;
+  @media(min-width: @sizes[tablet]){
+    z-index: 1;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 608px;
+    height: 630px;
+  }
+}

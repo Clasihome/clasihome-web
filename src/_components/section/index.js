@@ -7,6 +7,8 @@ export default ({ children, dark, className, id })=> (
     style={{ backgroundColor: dark ? "#F4F7FC" : "#FFFFFF" }}
     className={`section-cont ${className}`}
   >
+    <div className="snap-child">
     {children}
+    </div>
   </section>
 )

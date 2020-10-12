@@ -1,0 +1,82 @@
+@import '../../../_styles/vars.less';
+
+.contact-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.contact-cont h2{
+  margin-top: 10%;
+  position: relative;
+  z-index: 5;
+  color: #fff;
+  font-size: 2rem;
+  max-width: 500px;
+  text-align: center;
+  @media(min-width: @sizes[tablet]){
+    font-size: 52px;
+  }
+}
+
+.center-fix-cont{
+  position: absolute;
+  bottom: -250px;
+  left: 50%;
+  @media(min-width: @sizes[tablet]){
+    bottom: -450px;
+  }
+}
+#contact-sphere{
+  position: relative;
+  left: -50%;
+}
+
+.form-main-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+
+.contact-cont header{
+  width: 78%;
+  @media(min-width: @sizes[tablet]){
+    width: 500px;
+  }   
+}
+
+.contact-cont footer{
+  position: relative;
+  height: 15rem;
+  background-color: #F4F7FC;;
+  width: 100%;
+}
+
+.contact-form{
+  width: 78%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem 4rem;
+  box-shadow: @shadow[lg];
+  position: relative;
+  bottom: -130px;
+  position: relative;
+  z-index: 10;
+  @media(min-width: @sizes[tablet]){
+    width: 50%;
+  }  
+}
+
+.contact-form h3{
+  width: 331px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.contact-form label{
+  color: #979797 !important;
+}

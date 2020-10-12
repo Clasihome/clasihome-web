@@ -112,9 +112,9 @@ export default ()=> {
               PORTALS.map(p => (
                 <Col>
                   <Sticker
-                    width={p.width}
-                    height={p.height}
+                    id={p.id}
                     src={p.src}
+                    portal
                   />
                 </Col>
               ))

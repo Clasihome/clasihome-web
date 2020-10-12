@@ -1,0 +1,51 @@
+@import '../../../_styles/vars.less';
+
+.diffusion-images-section{
+  position: relative;
+  min-height: 330px;
+  min-width: 100vw;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    min-width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.diffusion-images-section .diffusion-background-image-section{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 316px;
+  height: 305.86px;
+  @media(min-width: @sizes[tablet]){
+    position: absolute;
+    width: 608px;
+    height: 587.96px;
+  }  
+}
+
+.diffusion-images-section .back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 106%;
+  //filter: blur(1px);
+  @media(min-width: @sizes[tablet]){
+    left: auto;
+    right: 0;
+    width: 762.4px;
+    height: 435px;    
+  }  
+}
+
+.portals-cont{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media(min-width: @sizes[tablet]){
+    top: 10%;
+  }    
+}

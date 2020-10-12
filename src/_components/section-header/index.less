@@ -1,0 +1,60 @@
+.section-header-main-cont{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  justify-content: center;
+  height: 100%;
+  @media(min-width: 768px){
+    margin: 0;
+  }
+}
+
+.section-header-icon-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    max-width: 250px;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  @media(min-width: 768px){
+    align-items: flex-start;
+    h2{
+      text-align: left;
+    }
+  }
+} 
+
+.carousel-text{
+  color: #979797;
+  text-align: center;
+  user-select: none;
+  @media(min-width: 768px){
+    text-align: left;
+  }
+}
+.carousel-text-dots-container{
+  display: flex;
+  justify-content: center;
+  @media(min-width: 768px){
+    justify-content: flex-start;
+  }
+}
+
+.carousel-text-dot{
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: #CAD3DB;
+  margin-right: .5rem;
+  transition: 250ms ease;
+  outline: none;
+  &:disabled{
+    background-color: #DC314F;
+  }
+}

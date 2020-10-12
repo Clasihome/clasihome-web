@@ -1,13 +1,45 @@
+@import '../../_styles/vars.less';
 
 .title-section{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 2rem;
+  user-select: none;
+  @media(min-width: @sizes[tablet]){
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    h2{
+      text-align: left;
+    }
+    p{
+      text-align: left;
+    }
+  }  
 }
 
 .title-section h2{
   max-width: 250px;
   font-size: 2rem;
   margin-top: 2rem;
+}
+
+.title-section p{
+  color: #979797;
+}
+
+.title-section ul{
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  li{
+    margin-left: 1rem;
+    color: #CAD3DB;;
+  };
+  li:nth-child(1){
+    //margin-left: 0;
+    color: @primary;
+  }  
 }

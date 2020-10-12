@@ -1,0 +1,73 @@
+@import '../../../_styles/vars.less';
+
+.templates-images-section{
+  position: relative;
+  min-height: 330px;
+  min-width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  @media(min-width: @sizes[tablet]){
+    overflow: visible;
+    min-width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.templates-sphere-1{
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  opacity: 0;
+}
+
+.templates-sphere-2{
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  opacity: 0;
+  display: none;
+  @media(min-width: @sizes[tablet]){
+    display: block;
+  }
+}
+
+.templates-images-section .back-left{
+  width: 200.35px;
+  height: 192.04px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  @media(min-width: @sizes[tablet]){
+    left: 7%;
+    width: 394.84px;
+    height: 378.46px;
+  }
+}
+
+.templates-images-section .top{
+  width: 315.62px;
+  height: 288.22px;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;  
+  @media(min-width: @sizes[tablet]){
+    width: 486px;
+    height: 541px;    
+  }
+}
+
+.templates-images-section .back-right{
+  width: 205.51px;
+  height: 191.81px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;  
+  @media(min-width: @sizes[tablet]){
+    right: 7%;
+    width: 405px;
+    height: 378px;      
+  }
+}

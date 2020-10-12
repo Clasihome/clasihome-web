@@ -1,0 +1,252 @@
+@import '../../../_styles/vars.less';
+
+.main-carousel-cont{
+  position: relative;
+  z-index: 100;
+}
+
+.section-header-main-cont{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  height: 100%;
+  justify-content: center;
+  padding: 1rem;
+  @media(min-width: 768px){
+    margin: 0;
+  }
+}
+
+.section-header-icon-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    max-width: 250px;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  @media(min-width: 768px){
+    align-items: flex-start;
+    h2{
+      text-align: left;
+    }
+  }
+} 
+
+.carousel-text{
+  color: #979797;
+  text-align: center;
+  user-select: none;
+  @media(min-width: 768px){
+    text-align: left;
+  }
+}
+.carousel-text-dots-container{
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  @media(min-width: 768px){
+    justify-content: flex-start;
+  }
+}
+
+.carousel-text-dot{
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: #CAD3DB;
+  margin-right: .5rem;
+  transition: 250ms ease;
+  outline: none;
+  &:disabled{
+    background-color: #DC314F;
+  }
+}
+
+.property-images-section{
+  position: relative;
+  min-height: 330px;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    min-height: 100vh;
+  }
+}
+
+.property-images-section .back{
+  width: 363.48px;
+  height: 330px;
+  position: absolute;
+  top: 0;
+  left: -10vw;
+  z-index: 3;
+  @media(min-width: @sizes[tablet]){
+    left: 0;
+    top: auto;
+    bottom: 0 !important;
+    width: 660px;
+    height: 590px;  
+  }  
+}
+
+.property-images-section .top{
+  width: 290px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: -8vw;
+  z-index: 3;
+  @media(min-width: @sizes[tablet]){
+    right: 0;
+    //top: 38%;
+    width: 396.63px;
+    height: 342.67px;
+  }    
+}
+
+.property-sphere{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @media(min-width: @sizes[tablet]){
+    //display: none;
+  }
+}
+
+.visit-orders-images-section{
+  position: relative;
+  min-height: 330px;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    min-height: 100vh;
+  }
+}
+
+.visit-orders-images-section .back{
+  width: 330.78px;
+  height: 269.88px;
+  position: absolute;
+  top: 0;
+  left: 5vw;
+  @media(min-width: @sizes[tablet]){
+    top: auto;
+    bottom: 0;
+    width: 717px;
+    height: 585px;
+  }
+}
+
+.visit-orders-images-section .mid{
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  left: 5vw;
+  bottom: 0;
+  @media(min-width: @sizes[tablet]){
+    left: 10vw;
+    width: 406px;
+    height: 352px;
+    z-index: 2;
+  }
+}
+
+.visit-orders-images-section .top{
+  width: 178.54px;
+  height: 165.16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @media(min-width: @sizes[tablet]){
+    width: auto;
+    height: auto;
+    z-index: 3;
+  }
+}
+
+.visit-orders-sphere{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.visit-orders-property-sphere{
+  position: absolute;
+  top: 0px;
+  right: -30px;
+}
+
+.visit-orders-property-sphere{
+  @media(min-width: @sizes[tablet]){
+    top: 60%;
+    left: 10vw;
+    width: 100px !important;
+    height: 100px !important;
+    z-index: 1;
+  }
+}
+
+.contact-images-section{
+  position: relative;
+  min-height: 330px;
+  overflow: hidden;
+  @media(min-width: @sizes[tablet]){
+    height: 100vh;
+    overflow: visible;
+  }
+}
+
+.contact-sphere{
+  margin-left: 2rem !important;
+  @media(min-width: @sizes[tablet]){
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    opacity: 0;
+  }
+}
+
+.contact-sphere-2{
+  display: none;
+  @media(min-width: @sizes[tablet]){
+    opacity: 0;
+    display: block;
+    position: absolute;
+    bottom: -25%;
+    left: -10%;
+  }
+}
+
+.contact-images-section .back{
+  position: absolute;
+  width: 403.33px;
+  height: 273.89px;
+  top: 6vh;
+  left: 12.5vw;
+  @media(min-width: @sizes[tablet]){
+    z-index: 1;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 779px;
+    height: 529px;
+  }
+}
+
+.contact-images-section .top{
+  position: absolute;
+  width: 301.85px;  
+  top: -1vh;
+  right: -22.5vw;
+  @media(min-width: @sizes[tablet]){
+    z-index: 1;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 558px;
+    height: 580px;
+  }
+}
