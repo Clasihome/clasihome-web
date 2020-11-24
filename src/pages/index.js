@@ -15,19 +15,14 @@ import {
 } from "../_sections/home"
 
 export default () => {
-  const getCliengo = () => {
-    var ldk = document.createElement("script")
-    ldk.type = "text/javascript"
-    ldk.async = true
-    ldk.src =
-      "https://s.cliengo.com/weboptimizer/5f847378f356b4002a66285a/5f84746df356b4002a6628b7.js"
-    var s = document.getElementsByTagName("script")[0]
-    s.parentNode.insertBefore(ldk, s)
-  }
   return (
     <Layout>
       <Helmet>
-        <script type="text/javascript">{`${getCliengo()}`}</script>
+        <script
+          type="text/javascript"
+          async
+          src="https://s.cliengo.com/weboptimizer/5f847378f356b4002a66285a/5f84746df356b4002a6628b7.js"
+        />
       </Helmet>
       <Hero />
       <Description />

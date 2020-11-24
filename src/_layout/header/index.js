@@ -13,6 +13,7 @@ import {
 } from "@ant-design/icons"
 import { Button } from "../../_components/buttons"
 import "./index.less"
+import SEO from "../../_components/seo"
 
 gsap.registerPlugin(ScrollToPlugin)
 
@@ -94,6 +95,7 @@ export default () => {
 
   return (
     <header className="main-header">
+      <SEO />
       <nav className="responsive-nav">
         <ul>
           {/*<li className="nav-option"><a href="#a">Funciones</a></li>*/}
