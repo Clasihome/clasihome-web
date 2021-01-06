@@ -31,6 +31,7 @@ export default () => {
       <Templates />
       <Stats />
       <Contact />
+
       {/*<div style={{ height: "100vh" }} />*/}
     </Layout>
   )

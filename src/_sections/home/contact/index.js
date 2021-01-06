@@ -4,20 +4,19 @@ import Sphere from "../../../_components/sphere"
 import { Form, Input, Row, Col, Spin } from "antd"
 import { Button } from "../../../_components/buttons"
 import { Fade, Bounce } from "react-reveal"
-import {
-  LoadingOutlined,
-  CheckCircleFilled,
-  CloseOutlined,
-  CloseCircleOutlined,
-} from "@ant-design/icons"
+import { LoadingOutlined, CheckCircleFilled } from "@ant-design/icons"
 import "./index.less"
-
+import Recaptcha from "react-google-recaptcha"
+/*import ReCaptcha, { Loader } from "@pittica/gatsby-plugin-recaptcha"
+ var Recaptcha = require("react-recaptcha")
+ */
 const { Item } = Form
 
 export default () => {
   const [form] = Form.useForm()
   const [loading, setLoading] = useState({ state: false, label: "Enviar" })
   const [done, setDone] = useState(null)
+  const [disableButton, setDisableButton] = useState(true)
 
   const error = (
     <div>
@@ -172,13 +171,20 @@ export default () => {
                     <Input.TextArea rows={4} disabled={loading.state} />
                   </Item>
                 </Col>
+                <Col span={24}>
+                  <Recaptcha
+                    /* ref="recaptcha" */
+                    sitekey="6LfvPu0ZAAAAADBB_wP0dleX2eXrwbjnrvxXqgUC"
+                    onChange={() => setDisableButton(false)}
+                  />
+                </Col>
                 <Col xs={24} md={12}>
                   <Item>
                     <Button
                       type="primary"
                       htmlType="submit"
                       block
-                      disabled={loading.state}
+                      disabled={loading.state || disableButton}
                     >
                       Enviar
                     </Button>

@@ -30,18 +30,29 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        fonts: [
-          {
-            family: `Lexend Deca`,
-            //variants: [`400`, `700`]
-          },
-          {
-            family: `Lato`,
-            //subsets: [`latin`]
-          },
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-1RFC3B3VKW", // Google Analytics / GA
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: `Lexend Deca`,
+              //variants: [`400`, `700`]
+            },
+            {
+              family: `Lato`,
+              //subsets: [`latin`]
+            },
+          ],
+        },
       },
     },
     {

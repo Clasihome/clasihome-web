@@ -1,10 +1,10 @@
-@import '../_styles/vars.less';
+@import "../_styles/vars.less";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-size: 16px;
   color: @secondary;
   font-family: @text-base;
@@ -12,19 +12,69 @@ body{
   color: @secondary;
 }
 
-a{
+a {
   color: @light-gray;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: @text-heading;
   color: @secondary;
 }
 
-.layout-body{
+.layout-body {
   //padding-top: 92px;
 }
 
-.ant-btn-link{
+.ant-btn-link {
   color: inherit;
+}
+
+.modal-promotion .ant-modal-content {
+  background: rgb(237, 237, 237);
+  background: linear-gradient(0deg, rgb(1, 12, 19) 0%, rgba(0, 36, 56, 1) 38%);
+}
+.modal-promotion {
+  color: #fff;
+  font-family: "Lexend Deca";
+  .ant-modal-close-icon {
+    color: #fff;
+  }
+  h3 {
+    color: #fff;
+  }
+  h2 {
+    font-family: "Lato";
+    color: #fff;
+  }
+  .ant-form-item {
+    margin-top: 40px;
+    .ant-input {
+      color: #fff;
+      height: 40px;
+      border-radius: 4px;
+      background-color: transparent;
+    }
+    button {
+      height: 50px;
+    }
+  }
+}
+
+.highlight {
+  font-family: "Lexend Deca";
+  font-weight: 550;
+  color: #ffaf6c;
+}
+
+.modal-promotion .ant-btn-success,
+.modal-promotion .ant-btn-success:active,
+.modal-promotion .ant-btn-success:focus,
+.modal-promotion .ant-btn-success:hover {
+  background-color: rgb(1, 165, 1);
+  color: #fff;
+  border: none;
 }
