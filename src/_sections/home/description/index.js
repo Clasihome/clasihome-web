@@ -137,6 +137,7 @@ export default () => {
             visibleSlides={1}
             orientation="horizontal"
             //isPlaying
+
             className="main-carousel-cont"
           >
             <Slider>

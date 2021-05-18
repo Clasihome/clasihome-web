@@ -38,7 +38,8 @@ export default () => {
         duration: 0.5,
         ease: "back.out(2)",
         opacity: 1,
-        x: "95px",
+        x: "115px",
+        y: "-30px",
       })
       .to("#avatar-right", {
         duration: 0.5,
@@ -79,7 +80,7 @@ export default () => {
   return (
     <div className="hero-very-main-cont">
       <div className="hero-main-cont">
-        <img className="hero-vector" src="/hero/vector-2.svg" />
+        {/* <img className="hero-vector" src="/hero/vector-2.svg" /> */}
         <section className="hero-cont">
           <div className="hero-image-background">
             <img src="/hero/hero.png" />

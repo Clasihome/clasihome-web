@@ -14,7 +14,7 @@ export default () => {
   return (
     <Section id="stats">
       <Container>
-        <div className="stats-main-cont">
+        <div className="stats-main-cont" style={{ marginTop: "50px" }}>
           <Bounce delay={250}>
             <h2>Te acompañamos en tu crecimiento</h2>
           </Bounce>

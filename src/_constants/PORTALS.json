@@ -54,10 +54,10 @@
     "height": 47.12
   },  
   {
-    "src":"/portals/mi-segunda-vivienda.png",
+    "src":"/portals/yumblin.png",
     "id":"mi-segunda-vivienda",
-    "width": 109,
-    "height": 34    
+    "width": 139,
+    "height": 74    
   },  
   {
     "src":"/portals/emol.png",
@@ -66,9 +66,9 @@
     "height": 41
   },   
   {
-    "src":"/portals/mercurio.png",
+    "src":"/portals/nestoria.png",
     "id":"mercurio",
-    "width": 182,
+    "width": 152,
     "height": 47.12 
   },    
   {
@@ -126,10 +126,10 @@
     "height": 30    
   },  
   {
-    "src":"/portals/bienes-online.png",
+    "src":"/portals/slideprop.png",
     "id":"bienes-online",
-    "width": 162,
-    "height": 32    
+    "width": 142,
+    "height": 82    
   },  
   {
     "src":"/portals/locanto.png",

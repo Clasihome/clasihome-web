@@ -77,7 +77,7 @@ export default ({ children }) => {
 
   return (
     <Fragment>
-      <Modal
+      {/*      <Modal
         className="modal-promotion"
         visible={visibleModal}
         width={1000}
@@ -173,7 +173,7 @@ export default ({ children }) => {
           <img style={{ width: "100%" }} src={portals} />
         </div>
       </Modal>
-
+ */}
       <div className="layout-main-cont">
         <Header />
         {children}

@@ -1,5 +1,5 @@
-@import '../../../_styles/vars.less';
-@import '../../../_styles/mixins.less';
+@import "../../../_styles/vars.less";
+@import "../../../_styles/mixins.less";
 
 /*.hero-main-cont{
   height: 100vh;
@@ -18,35 +18,39 @@
   border: 1px solid red;
 }*/
 
-.hero-very-main-cont{
+.hero-very-main-cont {
   position: relative;
   user-select: none;
 }
 
-.hero-main-cont{
+.hero-main-cont {
   position: relative;
   overflow: hidden;
-  padding-bottom: 70px;
   width: 100%;
   z-index: 2;
-  @media (min-width: @sizes[tablet]){
+  padding-bottom: 0px;
+  @media (min-width: @sizes[tablet]) {
+    padding-bottom: 90px;
     overflow: visible;
+  }
+  @media (min-width: @sizes[mobile]) {
+    padding-bottom: 90px;
   }
 }
 
-.hero-cont{
+.hero-cont {
   position: relative;
   height: 100vh;
   text-align: center;
 }
 
-.hero-info-animate{
+.hero-info-animate {
   opacity: 0;
   position: relative;
   z-index: 1;
 }
 
-.hero-image-background{
+.hero-image-background {
   position: relative;
   background-color: @primary;
   //background-image: url('/hero/hero.png');
@@ -64,7 +68,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  img{
+  img {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -72,41 +76,46 @@
     object-fit: cover;
     object-position: center;
   }
-  h1{
+  h1 {
     position: relative;
-    width: 250px;
+    width: 350px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem !important;
     line-height: 52px;
     color: #fff;
     z-index: 2;
-    @media (min-width: @sizes[tablet]){
+    @media (min-width: @sizes[tablet]) {
       font-size: 42px;
-      width: 400px;
+      width: 550px;
     }
   }
-  p{
+  p {
     position: relative;
     width: 300px;
     color: #fff;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     z-index: 2;
-    @media (min-width: @sizes[tablet]){
-      width: 480px;
-    }    
+    font-weight: bold;
+    font-size: 18px;
+    @media (min-width: @sizes[tablet]) {
+      width: 580px;
+    }
   }
-  &:before{
+  &:before {
     content: " ";
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(rgba(252, 132, 99, 0.54) 11.09%, #F1034A 141.35%);;
+    background-image: linear-gradient(
+      rgba(252, 132, 99, 0.54) 11.09%,
+      #f1034a 141.35%
+    );
     height: 100%;
     width: 100%;
     z-index: 1;
   }
-  @media (min-width: @sizes[tablet]){
+  @media (min-width: @sizes[tablet]) {
     left: 0;
     height: 200%;
     width: 100%;
@@ -115,7 +124,7 @@
   }
 }
 
-.hero-down-button-cont{
+.hero-down-button-cont {
   position: relative;
   display: inline-flex;
   flex-direction: column;
@@ -124,15 +133,15 @@
   top: -20px;
   z-index: 2;
   opacity: 0;
-  transform: scale(.5);
-  &:active{
-    span:nth-child(1){
+  transform: scale(0.5);
+  &:active {
+    span:nth-child(1) {
       box-shadow: @shadow[xs];
     }
   }
 }
 
-.hero-down-button-cont span:nth-child(1){
+.hero-down-button-cont span:nth-child(1) {
   transition: 250ms ease;
   position: relative;
   display: block;
@@ -144,58 +153,58 @@
   justify-content: center;
   align-items: center;
   box-shadow: @shadow[sm];
-  img{
+  img {
     width: 11.5;
     height: 6.29;
   }
 }
 
-#avatar-left{
+#avatar-left {
   position: absolute;
   bottom: -7%;
   opacity: 0;
   left: -175px;
   z-index: 2;
-  @media(min-width: @sizes[tablet]){
+  @media (min-width: @sizes[tablet]) {
     left: 0;
     bottom: -5%;
   }
 }
 
-#avatar-left .flip-card{
-  @media(min-width: @sizes[tablet]){
+#avatar-left .flip-card {
+  @media (min-width: @sizes[tablet]) {
     width: 317px !important;
     height: 317px !important;
   }
 }
 
-#avatar-right{
+#avatar-right {
   position: absolute;
   bottom: -10%;
   opacity: 0;
-  right: -130px; 
+  right: -130px;
   z-index: 2;
-  @media(min-width: @sizes[tablet]){
+  @media (min-width: @sizes[tablet]) {
     bottom: 25%;
     right: 0;
   }
 }
 
-#avatar-right .flip-card{
-  @media(min-width: @sizes[tablet]){
+#avatar-right .flip-card {
+  @media (min-width: @sizes[tablet]) {
     width: 211px !important;
     height: 211px !important;
   }
 }
 
-.hero-vector{
+.hero-vector {
   position: absolute;
   bottom: 0;
   right: 4%;
   //z-index: 1;
   display: none;
   opacity: 0;
-  @media(min-width: @sizes[tablet]){
+  @media (min-width: @sizes[tablet]) {
     display: block;
   }
 }

@@ -52,7 +52,7 @@ export default () => {
                 properties: value,
               })
             }
-            max={500}
+            max={2500}
             min={1}
           />
           <h4>
@@ -71,7 +71,7 @@ export default () => {
           <Slider
             defaultValue="10"
             className="slider-home-inactive slider-user"
-            max={40}
+            max={100}
             min={1}
             onAfterChange={value =>
               setParameters({ ...parameters, users: value })
