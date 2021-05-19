@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from 'react';
 import { gsap } from "gsap";
 import { v1 as uuid } from 'uuid';
-import CUSTOMERS from '../../../_constants/CUSTOMERS.json';
+import CUSTOMERS from '../../../_constants/CUSTOMERS_CAROUSEL.json';
 import './index.less';
 
 export default ()=> {
@@ -11,11 +11,11 @@ export default ()=> {
     gsap.set(".box", {
       x: (i) => i * 200,
     });
-    const mod = gsap.utils.wrap(0, 200 * 28);
+    const mod = gsap.utils.wrap(0, 200 * CUSTOMERS.length);
     const tween = gsap.to(".box",{
       paused: true,
       duration: 120,
-      x: "-=" + (200 * 28),
+      x: "-=" + (200 * CUSTOMERS.length),
       ease: "linear",
       //paused: true,
       repeat: -1,
