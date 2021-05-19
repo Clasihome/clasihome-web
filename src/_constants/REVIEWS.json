@@ -1,0 +1,26 @@
+[
+  {
+    "review": "Recomiendo Clasihome, lo que me gusto es lo fácil de usar el sistema, cada vez suman más funciones. Puedo generar órdenes de visita y cuando publico propiedades quedan de manera inmediata en los portales inmobiliarios y en mi página web, eso es excelente.",
+    "avatar": "/reviews/costabal.jpg",
+    "name": "Enrique Costabal",
+    "position": "Director en Málaga Propiedades"
+  },  
+  {
+    "review": "Lo que nos gusta de Clasihome es que está pensado en facilitar el trabajo del corredor de propiedades. Tiene detalles interesantes como la publicación del valor UF diario, entre otros. Por otra parte, ante cualquier duda podemos contactar vía zoom u otra a Clasihome y tenemos asesoría inmediata para la solución de nuestras inquietudes.",
+    "avatar": "/customers/cruz-puelma-propiedades.png",
+    "name": "C&P",
+    "position": "Asesores Inmobiliarios"
+  },  
+  {
+    "review": "Cuando RancoActivo Propiedades decidió dar un salto en nuestro proceso de expansión llegamos a ClasiHome, y no nos equivocamos. Siento que hemos ido creciendo juntos, y se convirtieron en nuestros partner, con un soporte más allá de lo esperado. Ahora los procesos de publicación son mucho más eficientes, y las propiedades de nuestros clientes más visibles debido a la integración con otros portales inmobiliarios.",
+    "avatar": "/reviews/jaime.png",
+    "name": "Jaime Flores Rocco",
+    "position": "Director en RancoActivo Propiedades"
+  },
+  {
+    "review": "Con Clasihome pude automatizar procesos en mi corredora, encontré un aliado que siempre está dispuesto a apoyarme en lo que necesito, lo recomiendo absolutamente y el valor es super accesible, estoy muy conforme con el servicio.",
+    "avatar": "/reviews/carmen.jpg",
+    "name": "Carmen Luz Halabi",
+    "position": "Corredora de Propiedades"
+  }
+]

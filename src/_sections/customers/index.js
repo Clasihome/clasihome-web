@@ -1,2 +1,3 @@
 export { default as Hero } from './hero';
-export { default as Content } from './content';
+export { default as CustomersList } from './customers-list';
+export { default as Reviews } from './reviews';

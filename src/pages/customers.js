@@ -3,7 +3,8 @@ import { Helmet } from "react-helmet"
 import Layout from "../_layout"
 import {
   Hero,
-  Content,
+  CustomersList,
+  Reviews,
 } from "../_sections/customers"
 
 export default () => {
@@ -18,7 +19,8 @@ export default () => {
       </Helmet>
       <div style={{ backgroundColor: "#F4F7FC" }}>
         <Hero />
-        <Content />
+        <CustomersList />
+        <Reviews />        
       </div>
     </Layout>
   )
