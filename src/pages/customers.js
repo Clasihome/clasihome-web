@@ -16,8 +16,10 @@ export default () => {
           src="https://s.cliengo.com/weboptimizer/5f847378f356b4002a66285a/5f84746df356b4002a6628b7.js"
         />
       </Helmet>
-      <Hero />
-      <Content />
+      <div style={{ backgroundColor: "#F4F7FC" }}>
+        <Hero />
+        <Content />
+      </div>
     </Layout>
   )
 }
