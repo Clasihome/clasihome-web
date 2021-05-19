@@ -8,3 +8,4 @@ export { default as Templates } from './templates';
 export { default as Stats } from './stats';
 export { default as Contact } from './contact';
 export { default as Description } from './description';
+export { default as Customers } from './customers';

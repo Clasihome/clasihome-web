@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import './index.less';
 
 export default ()=> (
-  <a className="link-logo" href="#" title="Inicio">
+  <Link className="link-logo" to="/" title="Inicio">
     <img src="/logotipo_full.png" alt="clasihome logo" />
-  </a>
+  </Link>
 )

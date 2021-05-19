@@ -4,6 +4,7 @@ import Container from "../../_components/container"
 import Sphere from "../../_components/sphere"
 import { gsap } from "gsap"
 import { ScrollToPlugin } from "gsap/ScrollToPlugin"
+import { Link } from 'gatsby';
 import {
   ArrowRightOutlined,
   FacebookFilled,
@@ -115,6 +116,13 @@ export default () => {
             </Button>
           </li>
           <li className="nav-option">
+            <Link to="/customers" onClick={()=> setMenu(false)}>
+              <Button type="link">
+                Nuestros clientes
+              </Button>
+            </Link>
+          </li>          
+          <li className="nav-option">
             <Button
               type="link"
               rounded
@@ -167,6 +175,13 @@ export default () => {
                 Contacto
               </Button>
             </li>
+            <li>
+              <Link to="/customers" onClick={()=> setMenu(false)}>
+                <Button type="link">
+                  Nuestros clientes
+                </Button>
+              </Link>
+            </li>                      
           </ul>
           <div className="desktop-nav-buttons">
             <Button

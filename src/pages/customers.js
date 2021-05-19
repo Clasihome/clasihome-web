@@ -3,17 +3,8 @@ import { Helmet } from "react-helmet"
 import Layout from "../_layout"
 import {
   Hero,
-  //Property,
-  //VisitOrder,
-  //Contacts,
-  Diffusion,
-  Querys,
-  Templates,
-  Stats,
-  Contact,
-  Description,
-  Customers
-} from "../_sections/home"
+  Content,
+} from "../_sections/customers"
 
 export default () => {
   return (
@@ -26,15 +17,7 @@ export default () => {
         />
       </Helmet>
       <Hero />
-      <Customers />
-      <Description />
-      <Diffusion />
-      <Querys />
-      <Templates />
-      <Stats />
-      <Contact />
-
-      {/*<div style={{ height: "100vh" }} />*/}
+      <Content />
     </Layout>
   )
 }
