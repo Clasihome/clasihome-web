@@ -1,11 +1,31 @@
 [
   {
-    "office": "impulso eirl",
-    "logo": "/customers/impulso.png"
+    "office": "capitalizarme rent",
+    "logo": "/customers/capitalizarme-rent.png"
+  },  
+  {
+    "office": "agente inmobiliario",
+    "logo": "/customers/agente-inmobiliario.png"
   },
   {
-    "office": "reimann inmobiliaria",
-    "logo": "/customers/reiman.jpg"
+    "office": "agente 365",
+    "logo": "/customers/agente-365.png"
+  },  
+  {
+    "office": "ranco activo",
+    "logo": "/customers/ranco-activo.png"
+  },  
+  {
+    "office": "movahome",
+    "logo": "/customers/movahome.png"
+  },  
+  {
+    "office": "promocasa",
+    "logo": "/customers/promocasa.png"
+  },       
+  {
+    "office": "impulso eirl",
+    "logo": "/customers/impulso.png"
   },
   {
     "office": "halabi propiedades",
@@ -38,10 +58,6 @@
   {
     "office": "vg propiedades",
     "logo": "/customers/vg-propiedades.png"
-  },
-  {
-    "office": "ranco activo",
-    "logo": "/customers/ranco-activo.png"
   },
   {
     "office": "armacima",
@@ -94,25 +110,5 @@
   {
     "office": "mente propiedades",
     "logo": "/customers/mente-propiedades.png"
-  },
-  {
-    "office": "promocasa",
-    "logo": "/customers/promocasa.png"
-  },
-  {
-    "office": "capitalizarme rent",
-    "logo": "/customers/capitalizarme-rent.png"
-  },
-  {
-    "office": "agente inmobiliario",
-    "logo": "/customers/agente-inmobiliario.png"
-  },
-  {
-    "office": "agente 365",
-    "logo": "/customers/agente-365.png"
-  },
-  {
-    "office": "movahome",
-    "logo": "/customers/movahome.png"
-  }               
+  }          
 ]
