@@ -39,20 +39,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-webfonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: {
-          google: [
-            {
-              family: `Lexend Deca`,
-              //variants: [`400`, `700`]
-            },
-            {
-              family: `Lato`,
-              //subsets: [`latin`]
-            },
-          ],
-        },
+        fonts: [
+          `Lexend Deca`,
+          `Lato`      
+        ],
+        display: 'swap'
       },
     },
     {
