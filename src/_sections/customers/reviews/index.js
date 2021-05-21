@@ -39,7 +39,7 @@ export default ()=> {
       <Container>
         <Row gutter={45}>
           <Col xs={24}>
-            <h2 className="review-title">NUESTROS CLIENTES HABLAN POR NOSOTROS</h2>
+            <br />
           </Col>
           {
             REVIEWS.map(item => (

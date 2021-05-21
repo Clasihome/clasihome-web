@@ -4,7 +4,7 @@ import { v1 as uuid } from 'uuid';
 import CUSTOMERS from '../../../_constants/CUSTOMERS_CAROUSEL.json';
 import './index.less';
 
-export default ()=> {
+export default ({ title })=> {
   let controller = null;
 
   useEffect(()=>{
@@ -29,7 +29,7 @@ export default ()=> {
 
   return(
     <section className="very-main-cont">
-      <h2 className="title">LOS QUE PREFIEREN LA EXCELENCIA ELIGIERON CLASIHOME</h2>
+      <h2 className="title">{title}</h2>
       <div className="main-cont" id="elm">
         {
           CUSTOMERS.map((item, i) => (

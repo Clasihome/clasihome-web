@@ -26,7 +26,7 @@ export default () => {
         />
       </Helmet>
       <Hero />
-      <Customers />
+      <Customers title="LOS QUE PREFIEREN LA EXCELENCIA ELIGIERON CLASIHOME" />
       <Description />
       <Diffusion />
       <Querys />

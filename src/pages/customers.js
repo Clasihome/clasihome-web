@@ -5,7 +5,8 @@ import {
   Hero,
   CustomersList,
   Reviews,
-} from "../_sections/customers"
+} from "../_sections/customers";
+import { Customers } from '../_sections/home';
 
 export default () => {
   return (
@@ -19,7 +20,8 @@ export default () => {
       </Helmet>
       <div style={{ backgroundColor: "#F4F7FC" }}>
         <Hero />
-        <CustomersList />
+        {/*<CustomersList />*/}
+        <Customers title="NUESTROS CLIENTES HABLAN POR NOSOTROS" />
         <Reviews />        
       </div>
     </Layout>
