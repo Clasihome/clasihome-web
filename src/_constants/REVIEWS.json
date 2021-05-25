@@ -22,5 +22,11 @@
     "avatar": "/reviews/carmen.jpg",
     "name": "Carmen Luz Halabi",
     "position": "Corredora de Propiedades"
-  }
+  },
+  {
+    "review": "Elegir Clasihome, ha sido una excelente experiencia, no solo por su plataforma amigable, eficiente y buena conexión con diversos portales de publicación, sino también porque se han convertido en uno mas de nuestro equipo, con su constante acompañamiento, capacitaciones y soporte técnico inmediato para dar soluciones, nos han ayudado a fortalecer y potenciar nuestra empresa. Los recomiendo 100%.",
+    "avatar": "/reviews/bascu.jpg",
+    "name": "Cristina Aguilera",
+    "position": "Fundador Bascuñan, Gestión Inmobiliaria"
+  }  
 ]
