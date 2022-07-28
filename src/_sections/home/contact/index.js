@@ -106,7 +106,9 @@ export default () => {
                   style={{ display: "flex", justifyContent: "center" }}
                 >
                   <h3>¿Tienes alguna consulta? con gusto te responderemos</h3>
+                  <div id="schedule"></div>
                 </Col>
+                
                 <Col xs={24} md={12}>
                   <Item
                     name="fullName"

@@ -105,6 +105,9 @@ export default () => {
                 <Button style={{ width: 330 }}>Pruébalo gratis</Button>
               </a>
             </span>
+            <span className="hero-info-animate" style={{marginTop: 10}}>
+                <Button onClick={() => handleNav("schedule")} style={{ width: 330 }}>Agenda tu reunión ahora!</Button>
+            </span>
           </div>
           <a
             onClick={() => handleNav("property")}
